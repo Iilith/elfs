@@ -6,7 +6,7 @@ perl -0777pe '$_=reverse $_' funnynnuf >ynnufunny
 echo;echo 'Reversing binary...';echo;
 echo 'Dump: ';echo;
 xxd ynnufunny;echo
-echo 'funnynnuf: ';echo;
+echo 'funnynnuf: ';echo;chmod +x funnynnuf
 ./funnynnuf
-echo;echo 'ynnufunny: ';echo
+echo;echo 'ynnufunny: ';echo;chmod +x ynnufunny
 ./ynnufunny;echo;
